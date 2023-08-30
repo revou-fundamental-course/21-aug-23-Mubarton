@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+#navBar {
+    height: 10vh;
+    background-color: #000099;
+}
+
+#logoNav {
+    height: 7vh;
+} 
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.jumbotron {
+    background-image: url("../assets/background3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 578px;
+}
+
+h1  {
+    padding: 15px 20px;
+    color: black;
+}
+
+.jumbotron > p {
+    padding: 0px 20px;
+}
+
+.facilitation {
+    text-align: center;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+form > div > label {
+    padding-right: 10px;
+}
+
+.validForm {
+    width: 400px;
+    border: 1px solid;
+    padding: 30px;
+}
+
+footer {
+    text-align: end;
+    padding: 30px;
+}
