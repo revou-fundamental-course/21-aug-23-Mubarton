@@ -108,6 +108,10 @@ footer {
     margin: 10px;
 }
 
+.hide {
+    display: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .container {
