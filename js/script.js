@@ -1,3 +1,21 @@
+// Carousel 
+const jumbotron = document.querySelector('.jumbotron');
+const backgroundImages = [
+    'url("../assets/background1.jpg")',
+    'url("../assets/background2.jpg")',
+    'url("../assets/background3.jpg")'
+];
+
+let currentIndex = 0;
+
+function changeBackgroundImage() {
+    jumbotron.style.backgroundImage = backgroundImages[currentIndex];
+    currentIndex = (currentIndex + 1) % backgroundImages.length;
+}
+
+setInterval(changeBackgroundImage, 3000);
+
+// Validasi Form
 function validateForm() {
     
     const name = document.forms["messageForm"]["name"].value;

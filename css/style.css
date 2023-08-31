@@ -107,3 +107,59 @@ footer {
 #misi {
     margin: 10px;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #logoNav {
+        height: 5vh;
+    }
+
+    nav {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .jumbotron {
+        height: 20vh;
+    }
+
+    .jumbotron h1 {
+        font-size: 24px;
+    }
+
+    .jumbotron p {
+        font-size: 14px;
+    }
+
+    .facilitation {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .circle {
+        height: 150px;
+        width: 150px;
+    }
+
+    form {
+        flex-direction: row;
+    }
+
+    .validForm {
+        width: 100%;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    #misi {
+        padding: 0px 10px;
+    }
+}
