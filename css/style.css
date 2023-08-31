@@ -79,3 +79,31 @@ footer {
     color: white;
     background-color: #007bff;
 }
+
+/* Page Profile */
+
+#secTentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tentang {
+    margin: 10px;
+}
+
+#visiMisi {
+    height: auto;
+}
+
+#visi {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+    align-items: start;
+}
+
+#misi {
+    margin: 10px;
+}
