@@ -13,7 +13,7 @@
 
 #navBar {
     height: 10vh;
-    background-color: #000099;
+    background-color: #007bff;
 }
 
 #logoNav {
@@ -36,7 +36,7 @@ nav > a {
 
 h1  {
     padding: 15px 20px;
-    color: black;
+    font-size: 30px;
 }
 
 .jumbotron > p {
@@ -63,6 +63,10 @@ form > div > label {
     padding-right: 10px;
 }
 
+#submitForm {
+    padding: 10px;
+}
+
 .validForm {
     width: 400px;
     border: 1px solid;
@@ -72,4 +76,6 @@ form > div > label {
 footer {
     text-align: end;
     padding: 30px;
+    color: white;
+    background-color: #007bff;
 }

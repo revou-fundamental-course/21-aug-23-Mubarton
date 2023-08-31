@@ -49,9 +49,10 @@
 
     <!-- Form -->
     <section>
+        <hr>
         <h1>Message Us</h1>
         <div class="container">
-            <form>
+            <form name="messageForm">
                 <div class="formLabel">
                     <label for="name">Nama</label><br>
                     <label for="birthday">Tanggal Lahir</label><br>
@@ -61,22 +62,23 @@
                 <div class="formInput">
                     <input type="text" name="name" id="name"><br>
                     <input type="date" name="birthday" id="birthday"><br>
-                    <input type="radio" name="gender" id="gender">
+                    <input type="radio" name="gender" id="gender" value="Laki-laki">
                     <label for="Laki-laki" name="gender" id="gender">Laki-laki</label>
-                    <input type="radio" name="gender" id="gender">
+                    <input type="radio" name="gender" id="gender" value="Perempuan">
                     <label for="Perempuan" name="gender" id="gender">Perempuan</label><br>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                    <button onclick="return validateForm()" type="button">Submit</button>
                 </div>
             </form>
 
             <div class="validForm">
-                <p><b>Current time :</b></p>
+                <p><b>Current time :</b><span id="currentTime"></span></p>
                 <br>
                 <br>
-                <p><b>Nama :</b></p>
-                <p><b>Tanggal Lahir :</b></p>
-                <p><b>Jenis Kelamin :</b></p>
-                <p><b>Pesan :</b></p>
+                <p><b>Nama :</b><span id="senderName"></span></p>
+                <p><b>Tanggal Lahir :</b><span id="senderBirthday"></span></p>
+                <p><b>Jenis Kelamin :</b><span id="senderGender"></span></p>
+                <p><b>Pesan :</b><span id="senderMessages"></span></p>
             </div>
         </div>
     </section>
@@ -88,5 +90,7 @@
         Created By Mubarton
     </footer>
     <!-- Footer END -->
+
+    <script src="js/scrips.js"></script>
 </body>
 </html>
